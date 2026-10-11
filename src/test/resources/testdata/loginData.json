@@ -1,0 +1,17 @@
+[
+  {
+    "username": "wrongUser",
+    "password": "YOUR_PASSWORD",
+    "expectedResult": "User or Password is not valid"
+  },
+  {
+    "username": "YOUR_USERNAME",
+    "password": "wrongPassword",
+    "expectedResult": "User or Password is not valid"
+  },
+  {
+    "username": "wrongUser",
+    "password": "wrongPassword",
+    "expectedResult": "User or Password is not valid"
+  }
+]
